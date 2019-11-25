@@ -1,2 +1,2 @@
 # pmo-project
-Project of pmo group with using Numpy
+Project of pmo group with using Numphy
