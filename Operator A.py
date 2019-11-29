@@ -13,7 +13,7 @@ def zero_check(v:np.ndarray)->np.ndarray:
         i += 1
     return v[i:]
 
-def operatorA_action(V0:np.ndarray, number:int)->np.ndarray:
+def operatorA_action(V0:np.ndarray, number:int)->list:
     """ Obtaining successive iterations Vm using the integral operator kernel """
     p = V0 # задаємо початкове наближення 
     t = np.array([1,0]) #t
