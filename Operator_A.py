@@ -29,6 +29,3 @@ def operatorA_action(V0:np.poly1d, number:int)->list:
         m += 1
         
     return list_V
-
-V = operatorA_action(np.poly1d([1.,0.]), 5)
-print(V)
