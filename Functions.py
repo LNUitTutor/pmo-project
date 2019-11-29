@@ -23,3 +23,8 @@ def operatorA_action(V0:np.poly1d, number:int)->list:
         m += 1
 
     return list_V
+
+def scalar_product(a_poly:np.polyld, b_poly:np.polyld)->float:
+    """Find scalar product of two polynomials"""
+    integral = np.polyint(np.polymul(a_poly, b_poly)) # множимо поліноми і знаходимо первісну
+    return integral(1) - integral(0) # від інтегралу в точці 1 - інтеграл в точці 0
