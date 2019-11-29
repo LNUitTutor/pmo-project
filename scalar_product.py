@@ -1,3 +1,5 @@
+import numpy as np
+
 def scalar_product(a_poly:np.ndarray, b_poly:np.ndarray)->float: 
     """Find scalar product of two polynomials"""
     integral = np.polyint(np.polymul(a_poly, b_poly)) # множимо поліноми і знаходимо первісну
